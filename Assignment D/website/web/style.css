@@ -1,0 +1,141 @@
+  @import url('https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed');
+
+* {
+  margin:auto;
+  padding-top: 1px;
+  font-family: 'Gugi', cursive;
+  font-size:16px;
+  text-align: center;
+}
+
+html, body {
+  background-color: #a6badb;
+}
+
+.custom {
+  cursor: url('/assets/Hand_Cursor_clip_art_small.png'), auto;
+}
+
+.container {
+  margin-top:100px;
+  margin-bottom:200px;
+}
+
+.fullscreen {
+  margin:0;
+  position: sticky;
+  left:0;
+  top:0;
+}
+
+.sketch {
+  margin:0;
+  text-align:center;
+  padding: 20px;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DDA135;
+    color: black;
+    text-align: center;
+}
+
+.h-block {
+  margin:0px;
+  text-align:center;
+}
+.h-block h1 {
+  color:#DDA135;
+  font-size: 7em;
+}
+
+.txt-block {
+  width: 55%;
+  margin: 40px auto;
+}
+
+.txt-block h2 {
+  color: #2E5393;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.0em;
+  margin-bottom: 40px;
+  text-align:justify;
+}
+
+.txt-block h3 {
+  color: #2E5393;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.0em;
+  margin-bottom: 40px;
+  text-align:center;
+}
+
+.txt-block p {
+  font-size: 1em;
+  line-height:2em;
+}
+
+.img-block {
+  width:90%;
+  margin:auto;
+  text-align:center;
+}
+
+.img-block figure {
+  display: inline-block;
+  width:25%;
+}
+
+.img-block figure.single {
+  width:60%;
+}
+.img-block figure.super {
+  width:80%;
+}
+
+.img-block figure img {
+  padding:0;
+  width:80%;
+}
+
+.img-block figure figcaption {
+  margin-top:4px;
+  margin-bottom:24px;
+  padding:0;
+}
+/* style for the header menu */
+
+header {
+  position:sticky;
+  top:0;
+  left:0;
+  background-color:#DDA135;
+  width:100%;
+  text-align:center;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin:auto;
+}
+
+ul.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+ul.menu li a {
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration:overline;
+}
+
+ul.menu li a:hover {
+  color: #C0D2F2;
+}
